@@ -1,8 +1,9 @@
 import AppleIcon from '@mui/icons-material/Apple';
 import ShopIcon from '@mui/icons-material/Shop';
+import Wave from './wave';
 function Banner() {
     return (
-        <div className="relative cursor-pointer   ">
+        <div className="relative cursor-pointer">
             <div className='absolute w-screen   bottom-0 z-20' />
             <div >
                 <img loading="lazy" src="Images/Base.png" alt='Banner' />
@@ -32,14 +33,16 @@ function Banner() {
 
                     </div>
                 </div>
-                <div className="-ml-12 md:my-20">
-                    <img
-                        src="Images/Wave.svg"
-                        objectFit="contain"
-                    />
-                </div>
+                {/* hidden md:flex lg:flex relative align-bottom  */}
+
             </div>
-            <div className="hidden sm:hidden md:hidden lg:inline-block absolute top-32 right-52 ">
+
+
+            <Wave />
+
+
+
+            <div className="hidden sm:hidden md:hidden lg:inline-block absolute top-10 right-32 ">
                 <img
                     src="Images/iphone.png"
                     objectFit="contain"
@@ -47,8 +50,11 @@ function Banner() {
                     width={350}
                 />
 
+
+
+
             </div>
-            <div className=" hidden sm:hidden lg:hidden  xl:hidden 2xl:hidden 4xl:hidden md:inline-block absolute top-20 right-24">
+            <div className=" hidden  lg:hidden  xl:hidden 2xl:hidden 4xl:hidden md:inline-block absolute top-20 right-24">
                 <img
                     src="Images/iphone.png"
                     objectFit="contain"
@@ -57,7 +63,7 @@ function Banner() {
                 />
 
             </div>
-            <div className=" sm:hidden md:hidden lg:hidden right-24 xl:hidden 2xl:hidden 4xl:hidden sm:flex absolute top-28 right-12 ">
+            <div className=" sm:hidden md:hidden lg:hidden  xl:hidden 2xl:hidden 4xl:hidden sm:flex absolute top-12 right-12 ">
                 <img
                     src="Images/iphone.png"
                     objectFit="contain"
@@ -66,7 +72,10 @@ function Banner() {
                 />
 
             </div>
+
+
         </div >
+
     )
 }
 
