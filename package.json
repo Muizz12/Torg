@@ -1,0 +1,38 @@
+{
+  "name": "with-redux-toolkit",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@heroicons/react": "^1.0.4",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/material": "^5.0.4",
+    "@mui/styled-engine-sc": "^5.0.3",
+    "@reduxjs/toolkit": "1.5.0",
+    "@tailwindcss/line-clamp": "^0.2.0",
+    "firebase": "^8.6.1",
+    "firebase-admin": "^9.8.0",
+    "next": "latest",
+    "next-auth": "^3.29.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-redux": "7.2.2",
+    "react-responsive-carousel": "^3.2.21",
+    "react-scroll-horizontal": "^1.6.6",
+    "react-slick": "^0.28.1",
+    "styled-components": "^5.3.3"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2"
+  }
+}
