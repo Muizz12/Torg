@@ -16,9 +16,6 @@ export default function Home() {
         <Header />
         <Banner />
         <div className="mt-24">
-          <Wave2 />
-        </div>
-        <div className="mt-10">
           <Services />
 
         </div>
